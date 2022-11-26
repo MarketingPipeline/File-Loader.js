@@ -10,7 +10,7 @@
 
 
    <p align="center">
-    The easiest way to load scripts / stylesheets to your HTML page
+    The easiest way to load scripts & stylesheets to your HTML page
   
   <br>
   <small> <b><i>Show your support!</i> </b></small>
@@ -39,9 +39,8 @@ How to use <b><i>File Loader</b></i>:
 import {FileLoader} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/File-Loader.js@v1.0.0/dist/file-loader.min.js';
 async function example_usage(){
   try{
-    let files_to_load = await FileLoader([{url: "https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js", file_type:"js"}, 
-    {url: "https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js", file_type:"css"}])
-    console.log(files_to_load)
+    let files_to_load = await FileLoader([{url: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js", file_type:"js"}, 
+    {url: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css", file_type:"css"}])
   } catch (error){
     console.log(error) 
   }
