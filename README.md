@@ -35,7 +35,8 @@ How to use <b><i>File Loader</b></i>:
 
   You can load a script / stylesheet or <b>MULITPLE</b> scripts & stylesheets like so  -
 
-```js
+```html
+<script type="module">
 import {FileLoader} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/File-Loader.js@v1.0.0/dist/file-loader.min.js';
 async function example_usage(){
   try{
@@ -47,6 +48,7 @@ async function example_usage(){
 }
 
 example_usage()
+</script>
 ```
 
 
@@ -59,7 +61,8 @@ How to use <b><i>File Loader</b></i> to load files from a <b>template</b>:
 
 You can store your file(s) to load as a <code>json</code> file and fetch them via a URL. Example below - 
 
-```js
+```html
+<script type="module">
 import {FileLoader} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/File-Loader.js@v1.0.0/dist/file-loader.min.js';
 async function load_files_from_template(){
   try{
@@ -71,6 +74,7 @@ async function load_files_from_template(){
 }
 
 load_files_from_template()
+</script>
 ```
 
 ## Append to head
