@@ -1,16 +1,39 @@
 {
-  "type": "module",
-  "name": "@MarketingPipeline/File-Loader.js",
-  "version": "1.0.0",
-  "description": "A JavaScript library for easily loading scripts & stylesheets to the DOM / a HTML page.",
-  "license": "MIT",
-  "main": "./dist/file-loader.min.js",
-  "author": {
-    "name": "MarketingPipeline",
-    "url": "https://github.com/MarketingPipeline"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MarketingPipeline/File-Loader.js.git"
-  }
+	"type": "module",
+	"name": "@MarketingPipeline/File-Loader.js",
+	"version": "1.0.0",
+	"description": "A JavaScript library for easily loading scripts & stylesheets to the DOM / a HTML page.",
+	"license": "MIT",
+	"main": "./dist/file-loader.min.js",
+	"author": {
+		"name": "MarketingPipeline",
+		"url": "https://github.com/MarketingPipeline"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MarketingPipeline/File-Loader.js.git"
+	},
+	"keywords": [
+		"promise",
+		"async",
+		"UnhandledPromiseRejectionWarning",
+		"PromiseRejectionHandledWarning",
+    "load-files",
+    "file-loader",
+    "load-javascript",
+    "load-stylesheets",
+    "script-loader",
+    "css-loader",
+    "load-file",
+    "load-multiple-files",
+    "load-files-to-HTML",
+    "file-loader.js",
+    "load-js",
+    "load-css",
+    "js-loader",
+    "javascript-loader",
+    "client-side",
+    "browser",
+    "javascript"
+	]
 }
