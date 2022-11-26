@@ -33,7 +33,7 @@
 
 How to use <b><i>File Loader</b></i>:
 
-  You can load a script / stylesheet or <b>MULITPLE</b> scripts & stylesheets like so  -
+  You can load a script / stylesheet or <b>MULTIPLE</b> scripts & stylesheets like so  -
 
 ```html
 <script type="module">
